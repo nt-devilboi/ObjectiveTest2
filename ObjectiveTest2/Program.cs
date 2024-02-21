@@ -3,17 +3,13 @@
 Console.WriteLine("Hello, World!");
 
 //lock даёт одновренно пользоваться данными
-class Server
+static class Server
 {
-    private int _count;
-    private readonly object _lock = new();
+    private static int _count = 0;
+    private static readonly object _lock = new();
 
-    public Server()
-    {
-        _count = 0;
-    }
 
-    public int GetCount()
+    public static int GetCount()
     {
         lock (_lock)
         {
@@ -21,7 +17,7 @@ class Server
         }
     }
 
-    public void AddToCount(int count)
+    public static void AddToCount(int count)
     {
         lock (_lock) // пока count меняется, GetCount будет ждать.
         {
