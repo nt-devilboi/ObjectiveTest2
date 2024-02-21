@@ -2,7 +2,7 @@
 
 Console.WriteLine("Hello, World!");
 
-
+//lock даёт одновренно пользоваться данными
 class Server
 {
     private int _count;
