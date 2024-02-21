@@ -1,8 +1,6 @@
-﻿// See https://aka.ms/new-console-template for more information
-
+﻿
 Console.WriteLine("Hello, World!");
 
-//lock даёт одновренно пользоваться данными
 static class Server
 {
     private static int _count = 0;
