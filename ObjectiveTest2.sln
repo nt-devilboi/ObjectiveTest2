@@ -1,0 +1,16 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ObjectiveTest2", "ObjectiveTest2\ObjectiveTest2.csproj", "{DF099693-1B28-4339-B44C-67D80B07AE8B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DF099693-1B28-4339-B44C-67D80B07AE8B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DF099693-1B28-4339-B44C-67D80B07AE8B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DF099693-1B28-4339-B44C-67D80B07AE8B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DF099693-1B28-4339-B44C-67D80B07AE8B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
